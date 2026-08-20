@@ -14,7 +14,7 @@ class Solution {
             }
         }
 
-        // Count elements of nums2 that appear in nums1
+        
         for (int i = 0; i < nums2.length; i++) {
             for (int j = 0; j < nums1.length; j++) {
                 if (nums2[i] == nums1[j]) {
